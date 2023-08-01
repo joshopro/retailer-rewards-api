@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS TRANSACTION (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    customer_id VARCHAR(255) NOT NULL,
+    amount DECIMAL(10, 2) NOT NULL,
+    date_of_transaction DATE NOT NULL
+);
